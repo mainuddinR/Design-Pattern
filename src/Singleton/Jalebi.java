@@ -2,7 +2,9 @@ package Singleton;
 
 public class Jalebi {
 	
-	//Eager way of creating singleton object 
+	//Eager way of creating singleton object
+	//good way na, agei object create kore rakhe use kori ar nai kore
+	
 	private static Jalebi jalebi=new Jalebi();
 	private Jalebi() {
 		
