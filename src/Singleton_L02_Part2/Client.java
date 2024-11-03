@@ -25,7 +25,7 @@ public class Client {
 		 System.out.println();
 		
 		//Thread create
-		Runnable task1 = () -> {
+		Runnable task1 = () -> { //Runnable is a functional interface in Java
             FurnitureFactory modernFactory1 = MudernFurnitureFactory.getInstance();
             AbstractFactory modernStore = new AbstractFactory(modernFactory1);
             modernStore.createFurnitureSet();
