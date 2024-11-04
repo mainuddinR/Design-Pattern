@@ -1,4 +1,6 @@
-package BSSE1472_L04_Q1;
+package PrototypeL04_Q1;
+
+
 public class Cloth extends Product {
 	 public String color;
 	 public int size;

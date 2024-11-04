@@ -1,4 +1,4 @@
-package BSSE1472_L04_Q2;
+package FacadeL04_Q2;
 
 public class AccountService {
     public boolean checkAccount(String cardNumber) {

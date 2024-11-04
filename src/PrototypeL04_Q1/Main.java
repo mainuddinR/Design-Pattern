@@ -1,4 +1,4 @@
-package BSSE1472_L04_Q1;
+package PrototypeL04_Q1;
 
 public class Main {
 		public static void main(String[] args) {

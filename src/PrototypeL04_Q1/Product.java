@@ -1,6 +1,5 @@
-package BSSE1472_L04_Q1;
+package PrototypeL04_Q1;
 
-import Prototype1.Shape;
 
 public abstract class Product{
 	private String name;
