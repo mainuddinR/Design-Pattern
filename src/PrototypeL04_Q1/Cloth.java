@@ -14,10 +14,8 @@ public class Cloth extends Product {
 			super(target);
 			if(target!=null) {
 				this.color=target.getColor();
-				this.size=target.getSize();
-				
+				this.size=target.getSize();	
 			}
-			
 		}
 	 public String getColor() {
 		return color;

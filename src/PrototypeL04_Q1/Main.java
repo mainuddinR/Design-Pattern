@@ -14,9 +14,14 @@ public class Main {
 			//cloth2=registry.put("Classic", cloth2);
 			
 			//cloth2=registry.put("Classic", cloth2);
+			System.out.println("Cloth2:");
+			System.out.println(cloth2.getName()+" "+cloth2.getCategory()+" "+cloth2.getPrice());
+			
 			cloth2.setColor("Green");
 			cloth2.clone();
 			cloth2=(Cloth) registry.put("Classic", cloth2);
+			
+			System.out.println("change color cloth2:");
 			
 			System.out.println(cloth2.getName()+" "+cloth2.getCategory()+" "+cloth2.getPrice()+" "+cloth2.getColor());
 			

@@ -8,7 +8,7 @@ public class PrinterFactory {
 	
 	public static Printer getPrinterForDepartment(Department department) {
 	
-		return printerRegistry.computeIfAbsent(department, dept -> new Printer(dept));//Lambda expression
+		return printerRegistry.computeIfAbsent(department, dept -> new Printer(dept));
 	}
 	
 	public static int getTotalPrinters() {
